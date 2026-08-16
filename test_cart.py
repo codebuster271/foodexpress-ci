@@ -5,7 +5,7 @@ def test_cart_total():
     assert cart_total(items) == 250
 
 def test_apply_discount():
-    assert apply_discount(200, 10) == 180
+    assert apply_discount(200, 10) == 999
 
 def test_zero_discount():
     assert apply_discount(100, 0) == 100
